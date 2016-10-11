@@ -7,18 +7,16 @@
 
 # Site settings
 title: Gypsy Moths
-email: your-email@domain.com
-description:
-
+email: gypsymothshull@gmail.com
+description: Hull & East Yorkshire Wedding and Events Band.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-port: 4000
+url: "gypsymothshull.com" # the base hostname & protocol for your site
 
 # Social media profiles - feel free to add more here
 
 facebook_username: gypsymothshull
-#instagram_username: beyonce
+
 
 # Build settings
 markdown: kramdown
