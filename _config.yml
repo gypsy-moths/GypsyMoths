@@ -9,7 +9,7 @@ url: "www.gypsymothshull.com" # the base hostname & protocol for your site
 # Social media profiles - feel free to add more here
 
 facebook_username: gypsymothshull
-
+gitupper: GypsyMoths
 
 # Build settings
 markdown: kramdown
