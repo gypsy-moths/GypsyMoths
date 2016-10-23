@@ -1,6 +1,19 @@
 @media (max-width: 768px) {
   header .container {
     margin-top: -50px; } }
+@media (min-width: 768px) {
+  .parallax1 {
+    /* The image used */
+    background-image: url("/img/img_parallax1.jpg"); }
+
+  .parallax1 {
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; } }
 body {
   font-family: 'Open Sans', sans-serif;
   padding-top: 90px;
@@ -21,6 +34,14 @@ header {
 .navbar-custom .navbar-nav li a:hover, .navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
   color: #D6BF77;
   background-color: transparent; }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white; }
+
+.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:hover {
+  color: white;
+  background-color: #D6BF77;
+  border-color: #D6BF77; }
 
 #about {
   background-color: #fff;
@@ -98,3 +119,14 @@ a, a.active, a:active, a:focus, a:hover {
 
 #contact-thanks:target {
   display: inherit; }
+
+#owl-slide {
+  margin-top: 20px; }
+
+#owl-slide .item {
+  margin: 3px; }
+
+#owl-slide .item img {
+  display: block;
+  width: 100%;
+  height: auto; }

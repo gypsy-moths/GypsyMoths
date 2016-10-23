@@ -2,7 +2,7 @@
 layout: post
 title:  "Reuben"
 date:   2016-10-03 15:08:10 -0500
-img: img/rooban.png
+img: img/rooban.jpg
 modalID: Reuben
 category: TheBand
 ---
