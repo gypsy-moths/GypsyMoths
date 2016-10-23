@@ -11,18 +11,21 @@
     <meta name="description" content="Vocals, Guitar, Bass, Percussion">
 
     <!-- Favicon  -->
-    <link rel="shortcut icon" href=" /img/favicon.ico ">
-    <link rel="icon" sizes="16x16 32x32 64x64" href=" /img/favicon.ico ">
+    <link rel="shortcut icon" href="/img/favicon.ico ">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="/img/favicon.ico ">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <!-- Freelancer Theme CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-freelancer/3.3.7/css/freelancer.min.css">
-    <link rel="stylesheet" href=" /css/main.css ">
     <link rel="canonical" href="www.gypsymothshull.com/theband/2016/10/03/joe.html">
 
-    <link rel="alternate" type="application/rss+xml" title="Gypsy Moths" href="www.gypsymothshull.com /feed.xml ">
+    <!--  slideshow -->
+    <link rel="stylesheet" href="/css/main.css ">
+    <link rel="stylesheet" href="/css/owl.carousel.css ">
+
+    <link rel="alternate" type="application/rss+xml" title="Gypsy Moths" href="www.gypsymothshull.com/feed.xml ">
 
     <!-- Custom Fonts -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -78,11 +81,11 @@
 
 
     <!-- Header -->
-<header>
+<header class="parallax1">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <img class="img-responsive" src=" /img/logo.png " alt="The Gypsy Moths Logo">
+                <img class="img-responsive" src="/img/logo-clear.png " alt="The Gypsy Moths Logo">
             </div>
         </div>
     </div>
@@ -105,6 +108,18 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div id="owl-slide">
+                  <div class="item"><img src="/img/slide-images/img_slide1.jpg" alt="Reuben"></div>
+                  <div class="item"><img src="/img/slide-images/img_slide2.jpg" alt="Will & Joe"></div>
+                  <div class="item"><img src="/img/slide-images/img_slide3.jpg" alt="Reuben"></div>
+                  <div class="item"><img src="/img/slide-images/img_slide4.jpg" alt="Joe"></div>
+                  <div class="item"><img src="/img/slide-images/img_slide5.jpg" alt="Will & Joe"></div>
+                  <div class="item"><img src="/img/slide-images/img_slide6.jpg" alt="Joe & Guest"></div>
+                </div>
+              </div>
+            </div>
         </div>
     </section>
 
@@ -121,21 +136,21 @@
                 
                     <div class="col-sm-4 portfolio-item">
                         <a href="#modalWill" class="portfolio-link" data-toggle="modal">
-                            <img src="/img/wiw.png" class="img-responsive" alt="">
+                            <img src="/img/wiw.jpg" class="img-responsive" alt="">
                             <h3>Will</h3>
                         </a>
                     </div>
                 
                     <div class="col-sm-4 portfolio-item">
                         <a href="#Reuben" class="portfolio-link" data-toggle="modal">
-                            <img src="/img/rooban.png" class="img-responsive" alt="">
+                            <img src="/img/rooban.jpg" class="img-responsive" alt="">
                             <h3>Reuben</h3>
                         </a>
                     </div>
                 
                     <div class="col-sm-4 portfolio-item">
                         <a href="#Joe" class="portfolio-link" data-toggle="modal">
-                            <img src="/img/joe.png" class="img-responsive" alt="">
+                            <img src="/img/joe.jpg" class="img-responsive" alt="">
                             <h3>Joe</h3>
                         </a>
                     </div>
@@ -289,7 +304,7 @@
                     <div class="modal-body">
                         <h2>Will</h2>
 
-                        <img src="/img/wiw.png" class="img-responsive img-centered" alt="">
+                        <img src="/img/wiw.jpg" class="img-responsive img-centered" alt="">
                         *Vocals, Guitar & Bass*
 
 Will is a supremely talented vocalist and bass player who can also turn his hand to the acoustic guitar. He studied at the University of Hull and has a degree in Musical Theatre which is evident in his performance. Will has been a performing musician for over 10 years and has racked up countless performances all over the UK.
@@ -323,7 +338,7 @@ Will is a supremely talented vocalist and bass player who can also turn his hand
                     <div class="modal-body">
                         <h2>Reuben</h2>
 
-                        <img src="/img/rooban.png" class="img-responsive img-centered" alt="">
+                        <img src="/img/rooban.jpg" class="img-responsive img-centered" alt="">
                         *Vocals, Keys & Percussion*
 
 Reuben is a vastly talented and experienced musician. Degree qualified, Reuben has performed primarily as a drummer in an array of musical genres at the very highest level. A talented vocal harmoniser he will be predominantly tinkling the ivories with Gypsy Moths as well as head percussionist due to his excellent versatility.
@@ -357,7 +372,7 @@ Reuben is a vastly talented and experienced musician. Degree qualified, Reuben h
                     <div class="modal-body">
                         <h2>Joe</h2>
 
-                        <img src="/img/joe.png" class="img-responsive img-centered" alt="">
+                        <img src="/img/joe.jpg" class="img-responsive img-centered" alt="">
                         <p><em>Vocals, Guitar, Bass, Percussion</em></p>
 
 <p>A true seasoned musician, Joe brings vocal qualities we mere mortals can only dream of. He’s also not half bad on the guitar and has been playing since the age of 11. Having performed in several successful function/cover bands over the last 15 years, Joe is now taking flight as the main man, guitarist and vocalist in Gypsy Moths.</p>
@@ -393,6 +408,8 @@ Reuben is a vastly talented and experienced musician. Degree qualified, Reuben h
 <script src="http://sbootstrap-freelancer.startbootstrapc.netdna-cdn.com/js/contact_me.js"></script>
 <!-- Custom Theme JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-freelancer/3.3.7/js/freelancer.min.js"></script>
+<script src="/scripts/owl.carousel.min.js"></script>
+<script src="/scripts/myjs.js"></script>
 
 
   </body>
