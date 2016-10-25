@@ -2,7 +2,7 @@
 layout: post
 title:  "Will"
 date:   2016-10-03 15:08:10 -0500
-img: img/wiw.jpg
+img: img/wiw.JPG
 modalID: modalWill
 category: TheBand
 ---
