@@ -190,3 +190,15 @@ a, a.active, a:active, a:focus, a:hover {
   width: 100%;
   height: auto;
 }
+.btn-social {
+  border-color: $text-color;
+  color: $text-color;
+}
+.btn-social:hover {
+  background-color: $text-color;
+  color: white;
+  border-color: $text-color;
+}
+thead {
+font-style: italic;
+}

@@ -4,7 +4,7 @@
 @media (min-width: 768px) {
   .parallax1 {
     /* The image used */
-    background-image: url("/img/img_parallax1.jpg"); }
+    background-image: url("/img/img_parallax1.JPG"); }
 
   .parallax1 {
     /* Set a specific height */
@@ -130,3 +130,15 @@ a, a.active, a:active, a:focus, a:hover {
   display: block;
   width: 100%;
   height: auto; }
+
+.btn-social {
+  border-color: #D6BF77;
+  color: #D6BF77; }
+
+.btn-social:hover {
+  background-color: #D6BF77;
+  color: white;
+  border-color: #D6BF77; }
+
+thead {
+  font-style: italic; }

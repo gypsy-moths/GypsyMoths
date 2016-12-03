@@ -4,13 +4,14 @@
       <div class="row">
           <div class="col-lg-12 text-center">
               <h2>Contact The Band</h2>
+              {% include social.html %}
               <p class="lead">Will - <a href="tel:07454198316">07454 198 316</a></p>
               <p class="lead">Joe - <a href="tel:07907187665">07907 187 665</a></p>
           </div>
       </div>
       <div class="row">
           <div class="col-lg-8 col-lg-offset-2">
-              <form method="POST" action="http://formspree.io/hudsj85@gmail.com">
+              <form method="POST" action="http://formspree.io/{{ site.email }}">
                   <div class="form-group col-xs-12 floating-label-form-group controls">
 
                       <input class="form-control" type="text" name="Name" placeholder="Name">
