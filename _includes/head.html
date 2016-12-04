@@ -6,7 +6,8 @@
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
+    <meta property="og:image" content="{{ site.github.url }}/img/img_parallax1.JPG" />
+    <meta property="og:url" content="http://www.gypsymothshull.com/" />
     <!-- Favicon  -->
     <link rel="shortcut icon" href="{{ site.github.url }}/img/favicon.ico">
     <link rel="icon" sizes="16x16 32x32 64x64" href="{{ site.github.url }}/img/favicon.ico">
