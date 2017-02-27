@@ -18,48 +18,15 @@
                 </tr>
             </thead>
             <tbody>
+              {% for gig in site.data.gigs %}
                 <tr>
-                    <td>Howden Arms</td>
-                    <td>Howden</td>
-                    <td>10th December 2016</td>
-                    <td>20.00</td>
+                    <td>{{ gig.venue }}</td>
+                    <td>{{ gig.where }}</td>
+                    <td>{{ gig.date | date: "%d %B %Y" }}</td>
+                    <td>{{ gig.time }}</td>
                     <td><a href="https://www.facebook.com/gypsymothshull/" target="_blank">More Info</a></td>
                 </tr>
-                <tr>
-                    <td><a href="http://www.buccaneerbrough.co.uk/">The Buccaneer</a></td>
-                    <td>Brough</td>
-                    <td>7th January 2017</td>
-                    <td>20.00</td>
-                    <td><a href="https://www.facebook.com/gypsymothshull/" target="_blank">More Info</a></td>
-                </tr>
-                <tr>
-                    <td>Private Function</td>
-                    <td>Private</td>
-                    <td>21st January 2017</td>
-                    <td>20.00</td>
-                    <td><a href="https://www.facebook.com/gypsymothshull/" target="_blank">More Info</a></td>
-                </tr>
-                <tr>
-                    <td>TBC</td>
-                    <td>TBC</td>
-                    <td>28th January 2017</td>
-                    <td>20.00</td>
-                    <td><a href="https://www.facebook.com/gypsymothshull/" target="_blank">More Info</a></td>
-                </tr>
-                <tr>
-                    <td>Private Function</td>
-                    <td>Private</td>
-                    <td>24th February 2017</td>
-                    <td>20.00</td>
-                    <td><a href="https://www.facebook.com/gypsymothshull/" target="_blank">More Info</a></td>
-                </tr>
-                <tr>
-                    <td><a href="https://www.facebook.com/admiralhessle/">The Admiral</a></td>
-                    <td>Hessle</td>
-                    <td>11th March 2017</td>
-                    <td>20.00</td>
-                    <td><a href="https://www.facebook.com/gypsymothshull/" target="_blank">More Info</a></td>
-                </tr>
+                {% endfor %}
             </tbody>
         </table>
     </div>
